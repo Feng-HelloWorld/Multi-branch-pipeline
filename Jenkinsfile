@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh "echo 'Hello World'"
+                    sh "echo 'Hello World from Branch 1!'"
                 }
             }
         }
